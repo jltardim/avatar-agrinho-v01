@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if [ -d \"/Users/joaolucasmoreiratardim/Desktop/teste-avatar-video/frontend\" ])",
+      "Bash(then ls -la /Users/joaolucasmoreitatardim/Desktop/teste-avatar-video/frontend/)",
+      "Bash(else echo \"Frontend directory not found\")",
+      "Bash(fi)",
+      "Bash(mkdir:*)",
+      "Bash(pip3:*)",
+      "Bash(python3:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(pkill -9 -f \"agent_direct.py\")",
+      "Read(//Users/joaolucasmoreiratardim/Downloads/teste-avatar-video - cópia 2/voice_agent/**)",
+      "Read(//Users/joaolucasmoreiratardim/Downloads/teste-avatar-video - cópia 2/frontend/**)",
+      "Read(//Users/joaolucasmoreiratardim/Downloads/teste-avatar-video - cópia 2/**)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
